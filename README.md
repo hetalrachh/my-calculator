@@ -9,9 +9,9 @@
 **Examples :** 1+2*, 08*2 (since cannot start with 0)
 
 **Important points -**
-1. Initially the operator buttons, equals button, delete and clear buttons are disabled.
+1. Initially the operator buttons, equals button, delete and clear buttons are disabled because the first character that should be entered should be an operand.
 2. If any invalid input is entered e.g. 5+2* then the output "Invalid input" error is shown on the "Your result" screen.
-3. Delete button is used to deleted the last character of the input.
+3. Delete button is used to delete the last character of the input.
 4. Clear is used to clear the question.
 
 ![](images/demo.PNG)
