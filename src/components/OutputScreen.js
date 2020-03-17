@@ -12,6 +12,7 @@ const useStyles = makeStyles({
   }
 });
 
+//component to display the output screen
 const OutputScreen = props => {
   const classes = useStyles();
   return (

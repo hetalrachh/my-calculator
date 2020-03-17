@@ -26,6 +26,7 @@ const styles = theme => ({
   }
 });
 
+//button grid component
 class ButtonGrid extends React.Component {
   handleButtonClick(val) {
     this.props.clicked(val);

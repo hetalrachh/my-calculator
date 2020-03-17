@@ -8,6 +8,7 @@ const useStyles = makeStyles({
   }
 });
 
+//component to display the title
 const Title = props => {
   const classes = useStyles();
   return (

@@ -4,8 +4,9 @@ import { withStyles } from "@material-ui/core/styles";
 import OutputScreen from "../components/OutputScreen";
 import ButtonGrid from "../components/ButtonGrid";
 import { Card, CardContent } from "@material-ui/core";
-
 import PropTypes from "prop-types";
+
+//higher order component which will hold other components
 
 const styles = theme => ({
   root: {
@@ -32,6 +33,7 @@ class CalculatorBuilder extends Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
+  //function which handles the click functionality of the buttons and updates the state
   handleClick(value) {
     switch (value) {
       case "Clear":
