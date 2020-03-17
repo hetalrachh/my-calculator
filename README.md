@@ -14,6 +14,8 @@
 3. Delete button is used to delete the last character of the input.
 4. Clear is used to clear the question.
 
+**Note : The npm start script is configured to run on port 3006.**
+
 ![](images/demo.PNG)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
