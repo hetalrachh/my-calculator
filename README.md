@@ -1,5 +1,11 @@
 my-calculator is a very simple calculator created using basic ReactJs. It supports basic mathematical operations such as addition, multiplication, subtraction and division.
 
+Valid question pattern - (operand) (operator) (operand)
+Examples : 1+2, 3*4, 3-1/2
+
+Invalid question pattern - (operand) (operator)
+Examples : 1+2*, 08*2 (since cannot start with 0)
+
 Important points-
 1. Initially the operator buttons, equals button, delete and clear buttons are disabled.
 2. If any invalid input is entered e.g. 5+2* then the output "Invalid input" error is shown on the "Your result" screen.
