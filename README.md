@@ -6,6 +6,8 @@ Important points-
 3. Delete button is used to deleted the last character of the input.
 4. Clear is used to clear the question.
 
+![](images/demo.PNG)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
