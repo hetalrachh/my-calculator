@@ -47,7 +47,7 @@ class CalculatorBuilder extends Component {
         this.setState({ question: ques }, () => {
           console.log("Delete called");
         });
-        if (ques == "") {
+        if (ques === "") {
           this.setState({ result: "" }, () => {
             console.log("Result updated when question deleted");
           });
