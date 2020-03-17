@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import CalculatorBuilder from "./containers/CalculatorBuilder";
 
 function App() {
